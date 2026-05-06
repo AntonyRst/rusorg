@@ -5,7 +5,7 @@ use std::time::Duration;
 
 // Usamos dos &str porque HashMap obtiene la llave y el valor.
 // HashMap<llave, valor> --- llave: "jpg", "pdf", "mp3" --- valor: "Imágenes", "Documentos", "Música".
-pub fn organizar_archivo(ruta: &Path, categorias: &HashMap<&str, &str>) -> Result<(), std::io::Error> {
+pub fn organizar_archivo(ruta: &Path, categorias: &HashMap<String, String>) -> Result<(), std::io::Error> {
     thread::sleep(Duration::from_millis(200));
 
     let nombre_completo = ruta.file_name()

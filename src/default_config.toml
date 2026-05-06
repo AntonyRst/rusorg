@@ -1,0 +1,13 @@
+# Archivo de configuración por defecto para rusorg
+# Si se deja vacío, se usará /home/usuario/Descargas
+ruta_descargas = ""
+
+[organizacion]
+Imagenes = ["jpg", "jpeg", "png", "gif", "svg", "webp", "bmp", "ico", "tiff"]
+Documentos = ["pdf", "docx", "doc", "txt", "xlsx", "pptx", "odt", "epub", "csv"]
+Videos = ["mp4", "mkv", "avi", "mov", "flv", "wmv", "webm"]
+Musica = ["mp3", "wab", "flac", "ogg", "m4a", "aac"]
+Software = ["exe", "msi", "appimage", "deb", "rpm", "bin", "sh"]
+Comprimidos = ["rar", "7z", "tar", "gz", "xz", "bz2"]
+Codigo = ["js", "html", "css", "scss", "rs", "py", "c", "cpp", "gd", "json"]
+Otros = ["iso", "db", "bak"]
