@@ -1,4 +1,4 @@
-mod config;       // Nuevo módulo
+mod config;  
 mod organizador;
 
 use config::Config;
@@ -9,7 +9,7 @@ use std::collections::HashMap;
 
 fn main() {
     // 1. Cargamos la configuración inteligente
-    let conf = Config::leer();
+    let conf = Config::leer().expect("Error al cargar la configuración");
 
     // 2. Convertimos el formato del TOML al HashMap que usa tu organizador
     let mut categorias_map: HashMap<String, String> = HashMap::new();
