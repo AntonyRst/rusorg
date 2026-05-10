@@ -77,4 +77,4 @@ sudo systemctl status rusorg
 
 ## Autor
 
-Jhon
+Juan Antonio Gonzàlez Erazo
